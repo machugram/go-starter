@@ -18,6 +18,9 @@ func main(){
 	fmt.Println("Deleted key0. Map : ", smap)
 
 	smap2 := map [string] int{"one": 1, "two":2}
+	_, isExists := smap2["one"]
+	fmt.Println(isExists)
 	fmt.Println(smap2)
+	
 
 }
