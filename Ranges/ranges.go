@@ -18,6 +18,7 @@ func main(){
 	var word = "go"
 
 	for charIndex,unicode := range word{
+		// Could reference unicode characters here: https://unicode-table.com/en/#006F
 		fmt.Println("char:", map [int] rune {charIndex:unicode})
 	}
 }
