@@ -2,4 +2,4 @@
 
 Following https://gobyexample.com tutorial for beginning go
 
-go run <filename>.go
+go run **filename**.go
